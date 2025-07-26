@@ -46,7 +46,7 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
     Abre el archivo `.env` recién creado y configura tus credenciales de base de datos y cualquier otra variable de entorno necesaria. Aquí tienes un ejemplo de configuración de base de datos para MySQL:
 
     ```env
-    APP_NAME="Tu Proyecto"
+    APP_NAME="LavaYa"
     APP_ENV=local
     APP_KEY=
     APP_DEBUG=true
