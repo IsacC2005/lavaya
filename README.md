@@ -1,6 +1,7 @@
-# Nombre de tu Proyecto
+# LavaYa
 
-Una descripción breve y atractiva de tu proyecto. ¿Qué hace? ¿Cuál es su propósito?
+LavaYa es una aplicacion para la gestion de procesos del negocio 'LavaYa' el cual 
+se dedica al alguiler de lavadoras, esta aplicacion gestiona el pedidos y horarios
 
 ---
 
@@ -24,10 +25,9 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
 1.  **Clona el repositorio:**
 
     ```bash
-    git clone [https://github.com/tu-usuario/nombre-de-tu-repositorio.git](https://github.com/tu-usuario/nombre-de-tu-repositorio.git)
-    cd nombre-de-tu-repositorio
+    git clone https://github.com/IsacC2005/lavaya.git
+    cd lavaya
     ```
-    *(Asegúrate de reemplazar `tu-usuario` y `nombre-de-tu-repositorio` con los datos correctos de tu proyecto en GitHub).*
 
 2.  **Instala las dependencias de PHP:**
 
@@ -74,8 +74,6 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
     php artisan migrate
     ```
 
-    *(Opcional: Si tienes seeders para llenar la base de datos con datos de prueba, puedes ejecutarlos así):*
-
     ```bash
     php artisan db:seed
     ```
@@ -93,16 +91,15 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
     * **Para desarrollo (con recarga en caliente - HMR):**
 
         ```bash
-        npm run dev # o yarn dev
+        npm run dev
         ```
         Mantén este comando ejecutándose en una terminal separada mientras desarrollas.
 
     * **Para producción (archivos optimizados):**
 
         ```bash
-        npm run build # o yarn build
+        npm run build
         ```
-        Ejecuta esto antes de desplegar tu aplicación en un entorno de producción.
 
 ---
 
